@@ -1,0 +1,195 @@
+
+
+/* body{
+  color:black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+} */
+
+header{
+  background-color: darkgray;
+  padding-top:32Px;
+  padding-bottom:5Px;
+}
+
+img{
+  float:right;
+}
+
+h3{
+  clear:right;
+}
+
+p{
+  background-color: azure;
+  font-size:16Px;
+  margin-bottom:16Px;
+  line-height:48Px;
+  width:500Px;
+}
+
+.yurina{
+  /* border-style: dashed; */
+  border-style:solid;
+  font-size:15Px;
+  line-height:50Px;
+  border-radius:10px;
+  border: 5px solid pink;
+  padding-top:5Px;
+  width:500Px;
+  margin:auto;
+}
+
+.box1{
+  background-color: aqua;
+  width:800px;
+  margin-bottom:10px;
+  /* position: relative; */
+  /* position: fixed;
+  Top:30Px;
+  left:30Px; */
+}
+
+.box2{
+  background-color: yellow;
+  width:600px;
+  margin-top:10px;
+}
+
+.box3{
+  background-color: red;
+  width:100px;
+  display:inline-block;
+}
+
+.pic{
+  /* background-size:cover;
+  background-position:center; */
+  /* background-image:url("../img/header.png") ;
+  background-size: cover;
+  background-position: center;  */
+
+  height:80pt;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom:5Px;
+
+}
+
+.box4{
+  box-sizing: border-box;
+  background-color: blue;
+  /* width:100px; */
+  width: calc((100% - 40px) / 3);
+  border:10px solid yellow; 
+  margin:0 auto; 
+}
+
+.box5{
+  background-color: green;
+  /* width:100px; */
+  width : calc((100% - 40px) / 3);
+  margin-left:auto; 
+}
+.airi{
+  line-height:20Px;
+  font-size:18Px;
+  border-top: 8px solid blue;
+  border-bottom: 2px solid yellow;
+  width:800Px
+}
+
+.checkbox{
+  width:500Px;
+  border-style:solid
+}
+
+.radio{
+  width:700Px;
+}
+
+.h1{
+  background-color: aqua;
+  width:700Px;
+  overflow:scroll;
+}
+
+textarea{
+  vertical-align:middle;
+}
+
+
+.icon{
+  background-color: skyblue;
+}
+
+.icon img{
+  /* border-radius:20px; */
+  border-radius:50%;
+  border-width:4px;
+  border-style:solid;
+  border-color:white;
+}
+
+.info{
+  background-color: tomato;
+  margin-left:32px;
+}
+
+.info h1{
+  font-weight:normal;
+  font-size:24px;
+  margin:0;
+}
+
+.info p{
+  margin:10Px;
+  margin-bottom:16px;
+}
+
+
+.info ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  display:flex;
+}
+
+.info ul li{
+  margin-right:8px;
+}
+
+/* ボディ部 */
+.works{
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.works> h1{
+  font-weight:normal;
+  text-align:center;
+  font-size:24px;
+  background-color: cyan;
+}
+
+.works >section{
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color: greenyellow;
+}
+
+.works >section > h1{
+  font-weight:normal;
+  background-color: magenta;
+}
+
+footer{
+  text-align:center;
+  font-size:14px;
+  margin-bottom:60px;
+  color: cadetblue;
+}
